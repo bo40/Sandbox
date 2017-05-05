@@ -1,0 +1,9 @@
+13:31:32 **** Rebuild of configuration Debug for project c++study01 ****
+Info: Internal Builder is used for build
+cl /c /EHs /MD /Zi /nologo "/Fosrc\\c++study01.obj" "..\\src\\c++study01.cpp" 
+c++study01.cpp
+link /debug /nologo /OUT:c++study01.exe "src\\c++study01.obj" 
+LINK : fatal error LNK1104: ファイル 'kernel32.lib' を開くことができません。
+
+13:31:32 Build Finished (took 546ms)
+

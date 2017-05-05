@@ -1,0 +1,16 @@
+22:54:49 **** インクリメンタル・ビルド of configuration Debug for project c++ ****
+Info: Internal Builder is used for build
+cl /c /EHs /MD /Zi "/IC:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\Tools\\" /nologo "/Fosrc\\c++.obj" "..\\src\\c++.cpp" 
+プログラム "cl" を実行できません: 起動失敗
+
+Error: Program "cl" not found in PATH
+PATH=[C:/Eclipse/pleiades/eclipse/./jre/bin/server;C:/Eclipse/pleiades/eclipse/./jre/bin;C:/Eclipse/pleiades/eclipse/./jre/lib/amd64;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64;;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Common Files\Lenovo;C:\SWTOOLS\ReadyApps;C:\Program Files (x86)\Common Files\Lenovo;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Eclipse\pleiades\eclipse;]
+
+21:03:12 **** インクリメンタル・ビルド of configuration Debug for project c++ ****
+Info: Internal Builder is used for build
+cl /c /EHs /MD /Zi "/IC:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\Tools\\" /nologo "/Fosrc\\c++.obj" "..\\src\\c++.cpp" 
+プログラム "cl" を実行できません: 起動失敗
+
+Error: Program "cl" not found in PATH
+PATH=[C:/Eclipse/pleiades/eclipse/jre/bin/server;C:/Eclipse/pleiades/eclipse/jre/bin;C:/Eclipse/pleiades/eclipse/jre/lib/amd64;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64;;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Common Files\Lenovo;C:\SWTOOLS\ReadyApps;C:\Program Files (x86)\Common Files\Lenovo;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Eclipse\pleiades\eclipse;]
+

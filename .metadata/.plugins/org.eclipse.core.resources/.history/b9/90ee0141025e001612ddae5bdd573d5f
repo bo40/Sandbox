@@ -1,0 +1,39 @@
+
+
+import java.util.List;
+
+import org.apache.commons.codec.binary.Base64;
+
+import com.google.gson.JsonObject;
+import com.google.u2f.U2FConsts;
+import com.google.u2f.U2FException;
+import com.google.u2f.client.ChannelIdProvider;
+import com.google.u2f.client.Crypto;
+import com.google.u2f.client.OriginVerifier;
+import com.google.u2f.client.U2FClient;
+import com.google.u2f.codec.ClientDataCodec;
+import com.google.u2f.codec.RawMessageCodec;
+import com.google.u2f.key.U2FKey;
+import com.google.u2f.key.UserPresenceVerifier;
+import com.google.u2f.key.messages.AuthenticateRequest;
+import com.google.u2f.key.messages.AuthenticateResponse;
+import com.google.u2f.key.messages.RegisterRequest;
+import com.google.u2f.key.messages.RegisterResponse;
+import com.google.u2f.server.U2FServer;
+import com.google.u2f.server.messages.RegisteredKey;
+import com.google.u2f.server.messages.RegistrationRequest;
+import com.google.u2f.server.messages.RegistrationResponse;
+import com.google.u2f.server.messages.U2fSignRequest;
+import com.google.u2f.server.messages.SignResponse;
+
+public class TestU2f {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+
+		com.google.u2f.key.impl.U2FKeyReferenceImpl u2ftestkey;
+
+
+	}
+
+}

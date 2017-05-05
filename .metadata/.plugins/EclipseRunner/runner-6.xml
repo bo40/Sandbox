@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<runner version="1.0.0">
+<category name="カテゴリーなし">
+<launchConfiguration bookmark="false" name="HelloWorld"/>
+<launchConfiguration bookmark="false" name="JavaTest"/>
+<launchConfiguration bookmark="false" name="TestClass"/>
+<launchConfiguration bookmark="false" name="c++ デバッグ"/>
+<launchConfiguration bookmark="false" name="c++ デバッグ (1)"/>
+<launchConfiguration bookmark="false" name="c++.exe"/>
+</category>
+</runner>

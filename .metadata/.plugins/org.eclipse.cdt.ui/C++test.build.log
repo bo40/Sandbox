@@ -1,0 +1,9 @@
+22:51:14 **** Rebuild of configuration Debug for project C++test ****
+Info: Internal Builder is used for build
+cl /c /EHs /MD /Zi /nologo /Fomain.obj "..\\main.cpp" 
+main.cpp
+link /debug /nologo /OUT:C++test.exe main.obj 
+LINK : fatal error LNK1561: エントリー ポイントを定義しなければなりません。
+
+22:51:15 Build Finished (took 642ms)
+

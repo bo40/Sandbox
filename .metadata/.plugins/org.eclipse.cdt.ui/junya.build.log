@@ -1,0 +1,9 @@
+21:31:41 **** インクリメンタル・ビルド of configuration Debug for project junya ****
+Info: Internal Builder is used for build
+g++ -o junya.exe main.o 
+c:/eclipse/pleiades/eclipse/mingw/bin/../lib/gcc/x86_64-w64-mingw32/4.5.4/../../../../x86_64-w64-mingw32/lib/libmingw32.a(lib64_libmingw32_a-crt0_c.o): In function `main':
+/W64_4.5_180676-src/build-crt/../mingw-w64-crt/crt/crt0_c.c:18: undefined reference to `WinMain'
+collect2: ld returned 1 exit status
+
+21:31:42 Build Finished (took 152ms)
+
