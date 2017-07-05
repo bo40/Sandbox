@@ -1,0 +1,79 @@
+\documentclass{jsarticle}
+\begin{document}
+
+\title{Introduction to Algorithms - Second Assignment}
+\author{Shijubo Junya \and student id number: 1029-28-8815}
+\maketitle
+
+\section{Problem 1 (Divide and Conquer)}
+\subsection{Algorithm A}
+
+Let the size of subproblem (its original problem is size n) be \frac{n}{c}. And divide a problem into $a$ subproblems.
+In Algorithm A,
+\[
+a = 5,  c = 2
+\]
+Using formula, the running time is
+\[
+1 < c < a
+\]
+\[
+T\left(n\right) = O\left(n^{\log{c}a}\right)
+= O\left(n^{\log{2}5}\right)
+\]
+
+\subsection{Algorithm B}
+
+When we divide original problem of size $n$ into two subproblems of size $n - 1$ recursively, we have to divice $2^{n-1}-1$ times. And finally, total count of problems of size 1 becomes $2^{n-1}$.
+So the running time is
+\[
+T\left(n\right) = C_1\left(2^{n-1}-1\right) + C_22^{n-1} + C_3
+= O\left(2^n\right)
+\]
+($C_1, C_2, C_3$ : constant value)
+
+\subsection{Algorithm C}
+
+Let the size of subproblem (its original problem is size n) be \frac{n}{c}. And divide a problem into $a$ subproblems.
+In Algorithm C,
+\[
+a = 9, c = 3
+\]
+Using formula, the runnning time is
+\[
+1 < c < a
+\]
+\[
+T\left(n\right) = O\left(n^{\log{c}a}\right) + O\left(n^2\right)
+= O\left(n^{\log{3}9}\right) + O\left(n^2\right)
+= O\left(n^2\right)
+
+\section{Problem 2 (Greedy Algorithms)}
+
+Only we need to sort the customers by each service time in ascending order. Then serving in the order, the avarage wating time is minimized.
+In order to sort $t_i$, use merge sort.
+
+\indent MergeSort Algorithm(input: array $A$, output: sorted array)
+\indent \indent If the array has size one then do nothing
+\indent \indent Else
+\indent \indent \indent array $A_1$ := MergeSort( the first half of $A$)
+\indent \indent \indent array $A_2$ := MergeSort(the second half of $A$)
+\indent \indent \indent A := Merge($A_1$, $A_2$)
+
+\indent Merge Algorithm(input: two sorted array $A_1, A_2$, output: merged array)
+\indent \indent Prepare a new array $D$ of length $2m$. ($m$ : the size of $A_1, A_2$)
+\indent \indent Append one $\infty$ entroy to $A_1$ and $A_2$
+\indent \indent $ i=1,  j=1 $
+\indent \indent for $k$ from 1 to 2$k$ do
+\indent \indent \indent if $A_1$[i] \leq $A_2$[j] then
+\indent \indent \indent \indent $D$[k] := $A_1$[i]
+\indent \indent \indent \indent i = i+1
+\indent \indent \indent else
+\indent \indent \indent \indent $D$[k] := $A_2$[j]
+\indent \indent \indent \indent j = j+1
+
+Of cource, merge sort's running time is
+\[
+T\left(n\right) = O\left(n\log n\right)
+
+\end{document}
